@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`  
 * {
-  font-family: "Saira";
+  font-family: Lato, sans-serif;
   color: inherit;
   box-sizing: border-box;
 }

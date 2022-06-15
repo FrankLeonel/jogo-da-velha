@@ -8,7 +8,7 @@ export const screenSizes = {
 };
 
 const breakpoints = Object.keys(screenSizes).reduce((acc, curr) => {
-  acc[curr] = `@media(max-width: ${screenSizes[curr] + 1}px)`;
+  acc[curr] = `@media(min-width: ${screenSizes[curr] + 1}px)`;
   return acc;
 }, {});
 
